@@ -1,0 +1,55 @@
+pane	0	1	:bash	1	:*	1	:/home/pierre	1	bash	:
+pane	Engie-costs	1	:home	1	:*	1	:/var/www/html/engie-costs	0	bash	:
+pane	Engie-costs	1	:home	1	:*	2	:/var/www/html/engie-costs	1	bash	:
+pane	Engie-costs	2	:html	0	:-	1	:/var/www/html/engie-costs	0	bash	:
+pane	Engie-costs	2	:html	0	:-	2	:/var/www/html/engie-costs/resources/assets/views	1	bash	:
+pane	Engie-costs	3	:scss	0	:	1	:/var/www/html/engie-costs/resources/assets/sass	0	bash	:
+pane	Engie-costs	3	:scss	0	:	2	:/var/www/html/engie-costs/resources/assets/sass	1	bash	:
+pane	LBS-onepage	1	:bash	1	:*	1	:/home/pierre	1	bash	:
+pane	LBS-onepage	1	:bash	1	:*	2	:/dev	0	bash	:
+pane	PeliGourmet	1	:servers	0	:-	1	:/var/www/html/peligourmetv1.1	1	bash	:
+pane	PeliGourmet	1	:servers	0	:-	2	:/var/www/html/peligourmetv1.1/web	0	bash	:
+pane	PeliGourmet	5	:git && grep	1	:*	1	:/var/www/html/peligourmetv1.1	0	bash	:
+pane	PeliGourmet	5	:git && grep	1	:*	2	:/var/www/html/peligourmetv1.1/web/css	0	ruby2.3	:/usr/bin/ruby2.3 /usr/local/bin/compass watch
+pane	PeliGourmet	5	:git && grep	1	:*	3	:/var/www/html/peligourmetv1.1	1	bash	:
+pane	Perso	1	:bash	1	:*	1	:/home/pierre	1	bash	:
+pane	Perso	1	:bash	1	:*	2	:/home/pierre	0	bash	:
+pane	gofer	1	:app launch + git	0	:-	1	:/var/www/html/gofer	0	bash	:
+pane	gofer	1	:app launch + git	0	:-	2	:/var/www/html/gofer/src	1	bash	:
+pane	gofer	2	:greps + touch	1	:*	1	:/var/www/html/gofer/src	1	bash	:
+pane	meteor-learning	1	:meteor running	0	:-	1	:/home/pierre/Dev/meteor/socially	0	bash	:
+pane	meteor-learning	1	:meteor running	0	:-	2	:/home/pierre/Dev/meteor/socially	1	bash	:
+pane	meteor-learning	2	:the rest :)	1	:*	1	:/home/pierre/Dev/meteor/socially	0	bash	:
+pane	meteor-learning	2	:the rest :)	1	:*	2	:/home/pierre/Dev/meteor/socially	1	bash	:
+pane	petitbus-app	1	:cordova - watch && build	0	:	1	:/var/www/html/mylittlebus	0	bash	:/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+pane	petitbus-app	1	:cordova - watch && build	0	:	2	:/var/www/html/mlb_cordova	0	node	:node /usr/bin/cordova-hcp server
+pane	petitbus-app	1	:cordova - watch && build	0	:	3	:/var/www/html/mlb_cordova	1	bash	:
+pane	petitbus-app	2	:cordova - work	0	:	1	:/var/www/html/mlb_cordova	1	bash	:
+pane	petitbus-app	2	:cordova - work	0	:	2	:/etc/apache2	0	bash	:
+pane	petitbus-app	3	:cloud	0	:	1	:/var/www/html/mylittlebus/cloud_code	0	bash	:
+pane	petitbus-app	3	:cloud	0	:	2	:/var/www/html/mylittlebus/library/js/views/app	1	bash	:
+pane	petitbus-app	4	:git && compass	1	:*	1	:/var/www/html/mylittlebus/library	1	bash	:
+pane	petitbus-app	4	:git && compass	1	:*	2	:/var/www/html/mylittlebus	0	bash	:
+pane	petitbus-app	5	:views	0	:-	1	:/var/www/html/mylittlebus	1	bash	:
+pane	petitbus-app	5	:views	0	:-	2	:/var/www/html/mylittlebus/library/js/views/app	0	bash	:
+pane	petitbus-services	1	:bash	1	:*	1	:/var/www/html/landing-page/services	1	bash	:
+pane	petitbus-services	1	:bash	1	:*	2	:/home/pierre	0	bash	:
+window	0	1	1	:*	ae3e,170x50,0,0,1
+window	Engie-costs	1	1	:*	7d3a,170x50,0,0{85x50,0,0,2,84x50,86,0,3}
+window	Engie-costs	2	0	:-	7d43,170x50,0,0{85x50,0,0,4,84x50,86,0,5}
+window	Engie-costs	3	0	:	7d4c,170x50,0,0{85x50,0,0,6,84x50,86,0,7}
+window	LBS-onepage	1	1	:*	7d55,170x50,0,0{85x50,0,0,8,84x50,86,0,9}
+window	PeliGourmet	1	0	:-	872b,170x50,0,0{85x50,0,0,10,84x50,86,0,38}
+window	PeliGourmet	5	1	:*	9929,170x50,0,0{85x50,0,0[85x25,0,0,34,85x24,0,26,11],84x50,86,0,37}
+window	Perso	1	1	:*	872c,170x50,0,0{85x50,0,0,12,84x50,86,0,13}
+window	gofer	1	0	:-	8731,170x50,0,0{85x50,0,0,14,84x50,86,0,15}
+window	gofer	2	1	:*	5755,170x50,0,0,16
+window	meteor-learning	1	0	:-	0739,170x50,0,0{85x50,0,0,17,84x50,86,0,18}
+window	meteor-learning	2	1	:*	4739,170x50,0,0{85x50,0,0,19,84x50,86,0,20}
+window	petitbus-app	1	0	:	d91a,170x50,0,0{85x50,0,0[85x25,0,0,21,85x24,0,26,22],84x50,86,0,23}
+window	petitbus-app	2	0	:	c732,170x50,0,0{85x50,0,0,24,84x50,86,0,25}
+window	petitbus-app	3	0	:	c737,170x50,0,0{85x50,0,0,26,84x50,86,0,27}
+window	petitbus-app	4	1	:*	c73c,170x50,0,0{85x50,0,0,28,84x50,86,0,29}
+window	petitbus-app	5	0	:-	072a,170x50,0,0{85x50,0,0,30,84x50,86,0,31}
+window	petitbus-services	1	1	:*	072f,170x50,0,0{85x50,0,0,32,84x50,86,0,33}
+state	PeliGourmet	Perso
