@@ -19,7 +19,6 @@ alias runweb='sudo service apache2 restart ';
 alias stopweb='sudo service apache2 stop ';
 alias stopinx='sudo service nginx stop '; 
 alias runinx='sudo service nginx start ';
-alias mountadesias='sudo mount -t cifs //192.168.1.253/Partage /mnt/qnap -o username=tthomann,password=INTECinfo';
 
 # GIT #
 alias gs='git status';
