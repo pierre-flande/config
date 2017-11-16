@@ -1,0 +1,17 @@
+pane	0	1	:bash	1	:*	1	:/home/pierre	1	bash	:
+pane	perso	1	:bash	1	:*	1	:/home/pierre/Downloads	1	bash	:
+pane	petitbus-app	1	:bash	0	: 	1	:/var/www/html/mylittlebus/library/js/utils	0	bash	:
+pane	petitbus-app	1	:bash	0	: 	2	:/var/www/html/mylittlebus	1	bash	:
+pane	petitbus-app	2	:bash	0	:-	1	:/var/www/html/mylittlebus/library	1	bash	:
+pane	petitbus-app	2	:bash	0	:-	2	:/var/www/html/mylittlebus/library/sass/breakpoints	0	bash	:
+pane	petitbus-app	3	:bash	1	:*	1	:/var/www/html/mylittlebus/cloud_code	1	bash	:
+pane	petitbus-app	3	:bash	1	:*	2	:/var/www/html/mylittlebus/library/js/views/app	0	bash	:
+pane	petitbus-services	1	:bash	1	:*	1	:/var/www/html/landing-page/services	1	bash	:
+pane	petitbus-services	1	:bash	1	:*	2	:/home/pierre	0	bash	:
+window	0	1	1	:*	c83e,170x47,0,0,1
+window	perso	1	1	:*	c83f,170x47,0,0,2
+window	petitbus-app	1	0	: 	6bd9,170x47,0,0{85x47,0,0,3,84x47,86,0,4}
+window	petitbus-app	2	0	:-	3a82,170x47,0,0{80x47,0,0,5,89x47,81,0,6}
+window	petitbus-app	3	1	:*	6beb,170x47,0,0{85x47,0,0,7,84x47,86,0,8}
+window	petitbus-services	1	1	:*	764e,170x47,0,0{85x47,0,0,9,84x47,86,0,10}
+state	petitbus-app	perso

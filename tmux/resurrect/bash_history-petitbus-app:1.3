@@ -1,0 +1,1000 @@
+cd views
+grep -n "see_more" *
+cd app/
+grep -n "see_more" *
+cd ../..
+grep -Rn "fetch(" *
+git push origin pierre
+git status 
+git add --all
+gi commit -m "FEATURE: email alert on hello is now also available from dashboard. We email hello@petitbus.com only when prod environment. Else, we email hellopetitbus@yopmail.com so we dont get spammed."
+git commit -m "FEATURE: email alert on hello is now also available from dashboard. We email hello@petitbus.com only when prod environment. Else, we email hellopetitbus@yopmail.com so we dont get spammed."
+git push origin pierre
+git branch 
+git status 
+git diff
+git status 
+git diff
+git pull origin portail 
+git add --all
+git commit -m "FEATURE: public profile page is ok, but needs to be made dynamic, and style needs tablet and laptop guidelines"
+git status 
+git branch 
+git diff
+git branch 
+git status 
+git add --all
+git commit -m "FEATURE: added all links to public profile
+git commit -m "FEATURE: added all links to public profile, ie in directory, chat, search, line planning, and school profile.
+WORDING: changed 'Profil' to 'Mon Profil' in show_profile
+BUGFIX: removed function in search that seemed useless
+STYLE: Public profile tablet style and laptop is OK
+"
+git push origin pierre
+git merge master
+git pull origin master 
+git add --all
+git commit
+git add --all
+git commit
+git status 
+git commit 
+git status 
+git checkout master 
+git pull origin pierre 
+git push origin master
+git pull origin master
+git status 
+git add --all
+git commit -m "BUGFIX: changed templates location as its the new way of doing it"
+git push origin master 
+git status 
+git add --all
+git commit -m "BUGFIX: different isuues addressed regarding portail integration. It works alright but needs cleaning. 
+FEATURE: user with no line displays a message saying they dont have any line. "
+git push origin master 
+git add --all
+git commit -m "Forgot one link from school profile"
+git push origin master 
+git status 
+git add --all
+git commit -m "BUGFIX: portail also displays the right message for users without line or without school"
+git push origin master 
+git checkout pierre
+git add --all
+git commit -m "BUGFIX: imported template in all html and php files as its the way to go"
+git push origin pierre
+git checkout master 
+git merge pierre
+git status 
+git add --all
+git status 
+git commit
+git push origin master 
+git status 
+git checkout pierre
+git status 
+git diff
+git reset --hard
+git checkout master 
+git pull origin master 
+git checkout pierre
+git merge master
+cd /var/www/html/landing-page/services/
+tmux attach
+tmux 
+subl .tmux.conf 
+curl https://install.meteor.com/ | sh
+sudo apt-get update
+sudo apt-get upgrade
+compass watch
+parse deploy
+cd app/
+grep "status_" *.js
+cd ../..
+grep "status_" *.js
+cd utils/
+grep "status_" *.js
+ls
+grep -n "status_" *.js
+grep -n "status" *.js
+cd ../..
+cd js/libs/
+ls
+grep -n "status" *.js
+grep -In "status" *.js
+ls
+subl backbone.js 
+cd ..
+ls
+grep -n "menu_back_uri" *.js
+grep -n "hamburger_to_back" *.js
+cd utils/
+grep -n "hamburger_to_back" *.js
+cd ../views/
+grep -n "hamburger-and_action" *.js
+grep -n "hamburger_and_action" *.js
+grep -n "hamburger_to_back" *.js
+cd app/
+grep -n "hamburger_and_action" *.js
+grep -n "display_app_msg" *.js
+grep -n "mailchimp_subscribe" *
+grep -n "mailchimp_set_groups" *
+grep -n "get_screen_size" *
+grep -Rn "fetch(" *
+git merge master
+git status 
+git diff
+git branch 
+git status 
+git add --all
+git commit "BUGFIX: Registering with fb is all ok. Only committing to see if it works with Safari. As it shouldnt work at all, next commit will focus on this"
+git push origin pierre
+git commit -m "BUGFIX: Registering with fb is all ok. Only committing to see if it works with Safari. As it shouldnt work at all, next commit will focus on this"
+git push origin pierre
+git checkout master 
+git checkout pierre
+git pull origin master
+git checkout master 
+git pull origin master
+git checkout pierre
+git pull origin master
+git checkout master 
+git merge pierre
+git push origin master 
+git add --all
+git commit -m "forgot to swap fb ids"
+git push origin master 
+git stat
+git status 
+git add --all
+git commit -m "link profile button on edit_profile is all OK, style included."
+git push origin master 
+git checkout pierre
+git pull origin master 
+git branch 
+git status 
+git add --all
+git commit -m "FEATURE: FB connect present on register. 
+Registration is a two-step one, as Safari forces us to make the user click again.
+I can be changed on demand but UXis OK"
+git commit -m "FEATURE: FB connect present on register. 
+Registration is a two-step one, as Safari forces us to make the user click again.
+UI can be changed but UX is OK."
+git merge master
+git push origin pierre
+git checkout master 
+git merge pierre
+git push origin master 
+git status 
+git add --all
+git commit -m "FEATURE: users registered with FB are subscribed to mailchimp"
+git push origin master 
+git checkout pierre
+git pull origin master 
+git add --all
+git commit -m "FEATURE: users registered with FB are subscribed to mailchimp only on prod"
+git push origin pierre
+git checkout master 
+git checkout pierre
+git branch 
+git diff
+git add --all
+git commit -m "FEATURE: Facebook SDK is loaded in a smarter way, ie from a function in general.js that checks the domain name and then injects the SDK script just after opening body tag"
+git branch 
+git push origin pierre
+git diff
+git status 
+git add --all
+git commit -m "Registration procedure thru FB is much more robust. 
+Also fixed Mailchimp users registration with city field. To be tested on prod though"
+git push origin pierre
+tmux attach
+cd /var/www/html/landing-page/services/
+tmux
+cd /etc/
+ls -l
+subl host.conf 
+grep -n "host" *
+subl hosts
+htop
+curl https://install.meteor.com/ | sh
+sudo apt-get install python-software-properties python g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get install python-software-properties python g++ make
+sudo apt-get update
+sudo apt-get install nodejs
+node -v
+node
+cd ~/Dev
+node test.js 
+lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+$ glxinfo|egrep "OpenGL vendor|OpenGL renderer*"
+glxinfo|egrep "OpenGL vendor|OpenGL renderer*"
+nvidia-settings
+sudo grep -i switcheroo /boot/config-*
+sudo subl /etc/default/grub
+sudo update-grub
+git push origin pierre
+git branch 
+git checkout master
+git status 
+git pull origin pierre 
+git push origin master
+git checkout pierre
+git branch 
+git status 
+git add --all
+git commit -m "Image display issues addressed here: chat default avatar displays properly and broken image icon hidden on registration page"
+git push origin pierre
+git checkout master 
+git pull origin pierre 
+git push origin master
+git status 
+git add --all
+git commit -m "BUGFIX: portail is back on track after missing a template"
+git push origin master 
+grep -n "$mobile_menu" *
+compass watch
+parse deploy
+tmux attach
+grep -n "get_screen_size" *
+cd /var/www/html/landing-page/services/
+parse deploy
+parse deploy
+curl https://install.meteor.com/ | sh
+lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+sudo subl /etc/default/grub 
+sudo update-grub
+sudo ls -l /sys/kernel/debug/vgaswitcheroo/switch
+compass watch
+grep -n "$mobile_menu" *
+grep -n "get_screen_size" *
+grep -Rn "fetch(" *
+tmux
+parse deploy
+sudo ls -l /sys/kernel/debug/vgaswitcheroo/switch
+lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+sudo apt-add-repository "ubuntu-x-swat/x-updates"
+sudo apt-add-repository "ubuntu-x-swat"
+sudo apt-add-repository ppa:ubuntu-x-swat/x-updates
+sudo apt-get update
+grep -n "$mobile_menu" *
+grep -Rn "fetch(" *
+git push origin pierre
+cd /var/www/html/landing-page/services/
+tmux attach
+grep -n "get_screen_size" *
+nvidia-uninstall
+sudo nvidia-uninstall
+nvidia
+nvidia -v
+tmux
+rm /etc/X11/xorg.conf
+cd /etc/X11
+ls -l
+subl xorg.conf.10142015 
+sudo apt-get --reinstall install libgl1-mesa-glx
+reboot
+sudo reboot
+tmux
+git push origin pierre
+git status 
+git reset --hard
+git diff
+git add --all
+git commit -m "BUGFIX: Login issue is solved, by not changing username for facebook users. Username for a fb user is an ugly looking string. Their email address is still stored in the email field"
+git status 
+git push origin master
+git stat
+git status 
+git add --all
+cd Dev/
+node test.js
+npm update
+npm install express
+parse deploy
+pdate
+sudo apt-cache search tor-browser
+sudo apt-get install tor-browser64
+node test.js
+node ./Dev/test.js
+compass watch
+grep -n "$mobile_menu" *
+grep -n "#main_menu" *
+parse deploy
+cd ../library/templates/
+ls
+cd shared
+ls
+cd ..
+ls app/
+touch app/line_see_planning.html && subl 
+touch app/line_profile.html
+touch app/line_contributor_avatar.html
+touch app/line_stop.html
+touch app/line_subscription.html
+touch app/line_unsubscription.html
+grep -n "Pour voir le profil des autres parents de la ligne <%= line_title %>, il suffit de vous inscrire en tant qu'utilisateur de cette ligne" *
+grep -Rn "Pour voir le profil des autres parents de la ligne <%= line_title %>, il suffit de vous inscrire en tant qu'utilisateur de cette ligne" *
+ls
+ls app/
+ls shared/
+touch app/line_planning.html
+touch app/line_planning_day_item.html
+touch app/line_planning_contributor.html
+touch app/user_calendar.html
+touch app/new_admin_email.html
+touch app/no_more_admin_email.html
+touch app/directory.html
+touch app/directory_contact.html
+touch app/your_school_subscription_email.html
+touch app/your_line_subscription_email.html
+touch app/others_line_subscription_email.html
+touch app/others_unsubscribed_email.html
+touch app/others_s_unsub_email.html
+touch app/i_am_in_charge_email.html
+touch app/user_in_charge_email.html
+touch && subl app/other_in_charge_email.html
+touch app/other_in_charge_email.html
+touch app/i_am_not_in_charge_email.html
+touch app/chat_msg_email.html
+touch app/new_admin_email.html
+subl new_admin_email.html
+subl chat_msg_email.html
+mv new_admin_email.html app/
+mv chat_msg_email.html app/
+touch app/others_school_subscription_email.html
+touch app/new_parent_in_visited_place.html
+touch app/admin_panel.html
+touch app/real_time.html
+subl app/real_time.html 
+grep -Rn "wanna_see" *
+cd shared/
+cd ..
+ls
+mkdir "portail"
+ls
+cd portail/
+touch "city_contacts.html"
+touch "todo-template.html"
+touch "city_profile.html"
+touch "parents_in_city.html"
+touch "city_children_in_lines.html"
+touch "city_active_users.html"
+touch "city_top_parent.html"
+touch "city_profile_lines.html"
+touch "city_new_parents.html"
+touch "city_new_children.html"
+touch "city_departures.html"
+touch "line_profile_portail.html"
+touch "line_profile_infos.html"
+touch "active_parents.html"
+touch "line_top_parent.html"
+touch "line_new_parents.html"
+touch "line_new_children.html"
+touch "line_departures.html"
+subl *
+touch "city_parents_in_lines.html"
+subl "city_parents_in_lines.html"
+cd ..
+ls app/
+touch app/line_wanna_see_people.html
+grep -Rn "fetch(" *
+cd ../..
+git status 
+git commit -m "BUGFIX: fixed app messages"
+git push origin master 
+git status 
+git diff
+git status 
+git checkout pierre
+git branch 
+git pull origin master 
+git branch 
+git merge today_is_a_bug_free_day 
+git pull origin today_is_a_bug_free_day 
+npm install package.json
+grunt jst
+npm update -g npm
+sudo npm update -g npm
+grunt jst
+npm install package.json
+sudo npm install package.json
+npm install grunt
+grunt jst
+npm install package
+grunt jst
+npm install grunt
+grunt jst
+git branch 
+git merge today_is_a_bug_free_day
+git pull origin today_is_a_bug_free_day 
+git checkout today_is_a_bug_free_day 
+git branch 
+git pull origin today_is_a_bug_free_day 
+git checkout pierre 
+git merge today_is_a_bug_free_day
+git pull origin today_is_a_bug_free_day 
+git branch 
+npm install package
+npm install package.json
+npm install grunt
+grunt jst
+git status 
+cd node_modules/
+grunt jst
+cd ..
+grunt jst
+grunt -v
+npm install grunt-cli -g
+sudo npm install grunt-cli -g
+grunt jst
+npm install
+grunt jst
+git pull origin today_is_a_bug_free_day 
+git merge today_is_a_bug_free_day
+git pull origin pierre 
+git branch 
+git status 
+git reset --hard
+git br
+git branch 
+grunt jst
+git add --all
+git branch 
+git commit -m "Extracted all templates to html files. 
+Cant see where 3 templates are called in portail-index.php though."
+git push origin pierre
+grunt jst
+git add --all
+git commit -m "FEATURE: all templaties pre-compimling is done. A quick fix is needed in portail though"
+git push origin pierre
+cd /var/www/html/landing-page/services/
+tmux attach
+parse deploy
+sudo apt-get install tor-browser64
+cd /media/
+ls
+ls -a
+ls -ah
+ls -h
+cd pierre/
+ls
+cd Data/
+ls
+cd ../Music/
+ls
+sizeof
+du -hs .
+du -h .
+du -hs .
+cd ../Vidéos/
+du -hs .
+ls -l
+ls
+cd ..
+ls
+cd Vidéos/
+ls -l
+kjygygfuygkgtvftfvkgtvftfvkgtvftfvkgtvftfvygfuygkgtvftfvkgtvftfvkgtvftfvkgtvftfv
+kjygygfuygkgtvftfvkgtvftfvkgtvftf
+j
+node ./Dev/test.js
+cd Downloads/
+ls -l
+cp ubuntu-14.04.4-desktop-i386.iso /media/pierre/Vidéos/
+compass watch
+grep -n "#main_menu" *
+touch app/line_wanna_see_people.html
+cd library/js/
+sh origin pierre
+cd /var/www/html/landing-page/services/
+tmux attach
+tmux
+parse deploy
+tmux attach
+j
+compass watch
+touch app/line_wanna_see_people.html
+cd library/js/
+grep -Rn "fetch(" *
+cd /var/www/html/landing-page/services/
+tmux attach
+grep -Rn "fetch(" *
+cd ..
+cd templates/
+rm templates_portail.js 
+cd ..
+grep -RIn "close-filled-18px.jpg"
+cd ..
+grep -RIn "close-filled-18px.jpg"
+cd library/js/
+cd views/
+cd app/
+grep -n "phonegap" *
+grep -n "phoneGap" *
+grep -n "PhoneGap" *
+grep -in "phongGap" *
+grep -i "phongGap" *
+grep -in "phonegap" *
+cd ../..
+grep -Rn 'isPhoneGap' *.js
+cd utils/
+grep -n 'isPhoneGap' *.js
+grep -n 'isPhoneGap()' *.js
+grep -n 'isPhoneGap' *
+cd ..
+git push origin pierre
+git status 
+git checkout today_is_a_bug_free_day 
+git pull origin today_is_a_bug_free_day 
+git checkout pierre
+git checkout today_is_a_bug_free_day 
+git checkout pierre
+git branch 
+git checkout today_is_a_bug_free_day 
+git pull origin pierre 
+git reset --hard
+git log
+git reset --hard ORIG_HEAD
+git status 
+git add --all
+git commit -m "tried to pull stuff from branch pierre but no use"
+git status 
+git branch 
+git checkout pierre
+git checkout today_is_a_bug_free_day a
+git checkout today_is_a_bug_free_day
+git status 
+git add --all
+git commit -m "BUGFIX: image in search appears correctly
+no more blocking message in edit_profile
+in public_profile, user can go back to where they came from
+style fix in edit_profile
+"
+git push origin today_is_a_bug_free_day 
+git status 
+git pull
+git status 
+git add --all 
+git commit -m "BUGFIX: public_profile view is OK on old browsers as well"
+git checkout master
+git checkout today_is_a_bug_free_day 
+git checkout master 
+git checkout today_is_a_bug_free_day 
+git branch 
+git add --all 
+git commit -m "removed console logs here and there"
+git status 
+git commit -m "public profile displays empty box the right way
+"
+git status 
+git push origin today_is_a_bug_free_day 
+git checkout master 
+git stash
+git checkout master
+git checkout today_is_a_bug_free_day 
+git add --all
+git commit -m "BUGFIX: edit profile picture actually changes the picture"
+git push origin today_is_a_bug_free_day 
+git branch 
+git add --all
+git commit -m "BUGFIX: edit profile picture should work in the android app now"
+git push origin today_is_a_bug_free_day 
+git pull origin today_is_a_bug_free_day 
+git push origin today_is_a_bug_free_day 
+git add --all
+git commit -m "BUGFIX: empty address field in public_profile is displayed properly"
+git diff
+git log -p -2
+git push origin today_is_a_bug_free_day 
+git pull
+git push origin today_is_a_bug_free_day 
+git branch 
+git status 
+git add --all
+git commit -m "BUGFIX: registration picture should now be OK"
+git push origin today_is_a_bug_free_day 
+git branch 
+git status 
+git diff
+git status 
+git commit -m "BUGFIX: emails on joining a line should be fixed but still need to check on that later. 
+Mandatory picture on registration works again"
+git add --all
+git commit -m "BUGFIX: emails on joining a line should be fixed but still need to check on that later. 
+Mandatory picture on registration works again"
+git push origin today_is_a_bug_free_day 
+git pull
+git push origin today_is_a_bug_free_day 
+git status 
+git add --all
+git commit -m "BUGFIX: Emails are sent. Need to push this on preprod to check if charset is ok
+"
+git pull origin today_is_a_bug_free_day 
+git push origin today_is_a_bug_free_day 
+git status 
+git checkout master 
+git pull origin master 
+git merge today_is_a_bug_free_day 
+git push origin master 
+git status 
+git reset --hard
+git checkout today_is_a_bug_free_day 
+git add --all
+git status 
+git commit -m "cloud code is more robust"
+git add --all
+git commit -m "cloud code is more robust"
+grep -in "phonegap" *
+cd /var/www/html/
+ls
+mv mylittlebus-cordova/ mlb_cordova
+chmod +x /usr/local/bin/onchange.sh 
+sudo chmod +x /usr/local/bin/onchange.sh 
+npm install -g cordova-hot-code-push-cli
+sudo npm install -g cordova-hot-code-push-cli
+parse deploy
+tmux attach
+j
+grep -n "mfp-hide" *
+cd ../../../..
+cd mlb_cordova/
+cordova plugins list
+npm install -g cordova
+sudo npm install -g cordova
+cordova plugins list
+cordova platform add android
+sudo chmod +x /var/www/html/mlb_cordova/hooks/after_prepare/010_add_intent_filters.sh 
+cordova platform add android
+cordova platform remove android
+cordova platform add android
+cordova plugins list
+ls
+ls plugins/
+ls -a plugins/
+cordova plugin install com.borismus.webintent
+cordova plugin install cordova-hot-code-push-local-dev-addon
+cordova plugin add com.borismus.webintent
+cordova plugin add cordova-hot-code-push-local-dev-addon
+cordova plugin add cordova-hot-code-push-plugin
+cordova plugin add cordova-plugin-camera
+cordova plugin add cordova-plugin-file
+cordova plugin add cordova-plugin-mauron85-background-geolocation
+cordova plugin add cordova-plugin-splashscreen
+cordova plugin add cordova-plugin-whitelist
+```
+1 new message since 12:16
+Files
+cordova-hcp server
+cd cordova-plugin-whitelist
+```
+1 new message since 12:16
+Files
+cd cordova-plugin-whitelist
+```
+1 new message since 12:16
+Files
+cd /var/www/html/mlb_cordova
+ls www/
+ls
+cd hooks/
+ls -a
+ls -la
+cd ../
+ls
+ls -l hooks/after_prepare/
+ls -l hooks/
+rm hooks/after_prepare/
+rm -R hooks/after_prepare/
+compass watch
+cd /var/www/html/mlb_cordova
+cordova run android --device
+touch app/line_wanna_see_people.html
+cd /usr/local/bin/
+sudo touch onchange.sh
+subl onchange.sh 
+cd /var/www/html/mylittlebus/
+cd ../../..
+compass watch
+cd /var/www/html/landing-page/services/
+tmux attach
+git push origin today_is_a_bug_free_day 
+cd ..
+git clone git@bitbucket.org:mylittlebus/mylittlebus-cordova.git
+cd mylittlebus
+ls
+ls -a
+onchange.sh rsync --exclude-from='/var/www/html/mlb_cordova/exclude_from_cordova.txt' -azrv ./ /var/www/html/mlb_cordova/www
+sudo onchange.sh rsync --exclude-from='/var/www/html/mlb_cordova/exclude_from_cordova.txt' -azrv ./ /var/www/html/mlb_cordova/www
+onchange.sh rsync --exclude-from='/var/www/html/mlb_cordova/exclude_from_cordova.txt' -azrv ./ /var/www/html/mlb_cordova/www
+sudo apt-get install inotifywait
+onchange.sh rsync --exclude-from='/var/www/html/mlb_cordova/exclude_from_cordova.txt' -azrv ./ /var/www/html/mlb_cordova/www
+sudo apt-get install inotify-tools
+onchange.sh rsync --exclude-from='/var/www/html/mlb_cordova/exclude_from_cordova.txt' -azrv ./ /var/www/html/mlb_cordova/www
+tmux
+sudo npm install -g cordova-hot-code-push-cli
+cordova run android --device
+node /usr/bin/cordova-hcp server
+rm -R hooks/after_prepare/
+grep -in "phonegap" *
+/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+export
+parse deploy
+tmux attach
+j
+java -v
+java
+java -version
+javac -version
+ordova platform ls
+cordova platform ls
+cd ../mlb_cordova/
+cordova platform ls
+javac -version
+cd /usr/java/jdk1.8.0_91/
+ls
+ls ..
+rm ../jdk-8u91-linux-x64.tar.gz 
+ls ..
+sudo rm ../jdk-8u91-linux-x64.tar.gz 
+ls ..
+sudo update-alternatives --config java
+git commit -m "cloud code is more robust"
+ww/html/landing-page/services/
+compass watch
+cd templates/
+cd ../..
+grunt tpl
+sudo npm install -g cordova-hot-code-push-cli
+grep -n "trigger" *
+grep -n "admin_panel_progr" *
+grep -n "trigger" *
+mv ~/Downloads/jdk-8u91-linux-x64.tar.gz  ~/Desktop/jdk
+cd ~/Downloads/
+ls
+cd ../Desktop/jdk1.7.0_79/
+ls
+google-chrome README.html 
+apt-get install alien
+sudo apt-get install alien
+cp ~/Downloads/jdk-8u91-linux-x64.rpm  .
+mv jdk-8u91-linux-x64.rpm ..
+cd ..
+cd ~/Desktop/
+ls
+cd ~/Dow
+cd ~/Downloads/
+sudo alien -d jdk-8u91-linux-x64.rpm 
+sudo alien -i jdk-8u91-linux-x64.rpm 
+sudo rm jdk1.8.0_91-1.8.0_91/
+sudo rm -r -f jdk1.8.0_91-1.8.0_91/
+ls
+sudo alien -i jdk-8u91-linux-x64.rpm 
+sudo rm -r -f jdk1.8.0_91-1.8.0_91/
+tar xzfv jdk-8u91-linux-x64.tar.gz 
+sudo usermod -aG src user
+sudo usermod -aG src pierre
+cd jdk1.8.0_91/
+test -f configure || sh autogen.sh 
+test -f configure
+ls -l
+subl release 
+cd /usr/java
+cd /usr/
+mkdir java
+sudo mkdir java
+cd java/
+cp ~/Downloads/jdk-8u91-linux-x64.tar.gz 
+sudo cp ~/Downloads/jdk-8u91-linux-x64.tar.gz 
+sudo cp ~/Downloads/jdk-8u91-linux-x64.tar.gz .
+ls
+tar xzfv jdk-8u91-linux-x64.tar.gz 
+sudo tar xzfv jdk-8u91-linux-x64.tar.gz 
+java -version
+javac -version
+cd ~
+sudo apt-get install openjdk-8-jdk
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+sudo apt-get install oracle-java8-installer
+javac -version
+java -version
+echo $JAVA_HOME
+EDITOR=subl
+printenv
+export JAVA_HOME=/usr/java/jdk1.8.0_91
+echo $JAVA_HOME 
+javac -version 
+java -version 
+echo $JAVA_HOME 
+javac -version 
+java -version 
+export JAVA_HOME=/usr/local/java/jdk1.8.0_51/bin/java
+echo $JAVA_HOME 
+javac -version
+export JAVA_HOME=/usr/local/java/jdk1.8.0_51/
+echo $JAVA_HOME 
+javac -version
+java -version
+javac -version
+java -version
+sudo subl /etc/profile
+javac -version
+cd /usr/lib/jvm/
+ls
+cd java-8-oracle/
+ls
+javac -version
+subl ~/.bashrc
+cd /usr/java/
+ls
+export
+javac -version
+java -version
+parse deploy
+tmux attach
+cordova platform ls
+touch app/line_wanna_see_people.html
+git commit -m "cloud code is more robust"
+git status 
+git reset --hard
+grunt tpl
+grep -n "trigger" *
+java -version
+javac -version
+echo $PATH
+export JRE_HOME=/usr/lib/jdk1.8.0_51/jre
+sudo update-alternatives --config java
+tmux
+parse deploy
+tmux attach
+touch app/line_wanna_see_people.html
+git commit -m "cloud code is more robust"
+git status 
+git reset --hard
+grunt tpl
+grep -n "trigger" *
+java -version
+javac -version
+cd ../local/java/
+ls
+rm jdk-7u79-linux-x64.tar.gz 
+sudo rm jdk-7u79-linux-x64.tar.gz 
+sudo rm jdk-8u51-linux-x64.tar.gz 
+ls
+cd jdk1.8.0_51/
+ls
+grep -R "tools.jar"
+echo $JAVA_HOME 
+echo £PATH
+echo $PATH
+subl ~/.bashrc 
+sudo update-alternatives --config java
+cd /var/www/html/landing-page/services/
+tmux attach
+parse deploy
+touch app/line_wanna_see_people.html
+git commit -m "cloud code is more robust"
+git reset --hard
+grunt tpl
+grep -n "trigger" *
+tmux
+parse deploy
+tmux attach
+ls
+touch app/line_wanna_see_people.html
+git commit -m "cloud code is more robust"
+git status 
+robust"
+git reset --hard
+source ~/.bashrc 
+javac -version
+sudo update-alternatives --config java
+parse deploy
+tmux attach
+git commit -m "cloud code is more robust"
+touch app/line_wanna_see_people.html
+git reset --hard
+grunt tpl
+grep -n "trigger" *
+source ~/.bashrc 
+sudo cp ~/Desktop/android-studio/ /usr/local/
+cd ~/Desktop/
+ls
+cp android-studio/ /usr/local/
+sudo cp -r ~/Desktop/android-studio/ /usr/local/
+android
+subl ~/.profile 
+export ANDROID_HOME=/usr/local/android-studio
+exho $ANDROID_HOME 
+echo $ANDROID_HOME 
+subl ~/.bashrc 
+android
+sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
+android
+sudo update-alternatives --config java
+cd /usr/local/
+ls
+cd android-studio/
+cd bin/
+./studio.sh
+android
+studio.sh
+ls
+studio.sh
+sudo studio.sh
+./studio.sh 
+javac -version
+sudo apt-get install oracle-java8-sdk
+sudo apt-get install openjdk-8-jdk
+sudo update-java-alternatives --set java-8-oracle
+javac -version
+tmux
+android
+./studio.sh 
+cd /var/www/html/mlb_cordova/
+/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+cd /var/www/html/mlb_cordova/
+/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+cd /var/www/html/mlb_cordova/
+/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+android
+cd /var/www/html/mlb_cordova/
+cordova run android --device
+/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+cd /var/www/html/mylittlebus/
+/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+subl ~/.tmux.conf 
+source ~/.tmux.conf 
+/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+/bin/bash /usr/local/bin/onchange.sh rsync --exclude-from=/var/www/html/mlb_cordova/exclude_from_cordova.txt -azrv ./ /var/www/html/mlb_cordova/www
+parse deploy
+tmux attach
+cordova platform ls
+va/www
+parse deploy
+tmux attach
+cd /var/www/html/mlb_cordova/
+subl apache2.conf 
+touch app/line_wanna_see_people.html
+git commit -m "cloud code is more robust"
+grunt tpl
+git status 
+git rm library/js/libs/openfb.js 
+rm library/js/libs/openfb.js 
+git status 
+git add --all
+git commit -m "BUGFIX: chat displays last 100 messages and laptop textarea stays bottom of page"
+git push origin today_is_a_bug_free_day 
+grunt tpl
+tmux
+git run android
+cordova run android
+adb devices
+cordova run android
+cd www/
+ls -l
+rm -Rf 
+ls
+rm -Rf ./*
+ls -al
+rm -Rf ./.sass-cache/
+ls -al
+clear
+ls
+cordova run android
+cd ../..
+git clone https://github.com/Wizcorp/phonegap-facebook-plugin.git
+cd mlb_cordova/
+cordova -d plugin add /path/to/cloned/phonegap-facebook-plugin --variable APP_ID="1097454663631717" --variable APP_NAME="PetitBus Android"
+cordova -d plugin add /var/wwwh/phonegap-facebook-plugin --variable APP_ID="1097454663631717" --variable APP_NAME="PetitBus Android"
+cordova -d plugin add /var/wwwh/phonegap-facebook-plugin --variable APP_ID="1097454663631717" --variable APP_NAME=""
+cordova -d plugin add /var/www/html/phonegap-facebook-plugin --variable APP_ID="1097454663631717" --variable APP_NAME="PetitBus Android"
+cordova run android
+adb devices 
+cordova run android --device

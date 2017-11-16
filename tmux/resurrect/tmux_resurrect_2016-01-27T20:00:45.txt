@@ -1,0 +1,11 @@
+pane	0	1	:bash	1	:*	1	:/home/pierre/.tmux/plugins/tpm	1	bash	:
+pane	1	1	:bash	1	:*	1	:/home/pierre/.tmux/plugins/tpm	1	bash	:
+pane	petitbus	1	:git && greps	1	:*	1	:/var/www/html/mylittlebus	1	bash	:
+pane	petitbus	1	:git && greps	1	:*	2	:/var/www/html/mylittlebus/library/sass/breakpoints	0	bash	:
+pane	petitbus	2	:compass && tmux help	0	:-	1	:/var/www/html/mylittlebus/library	0	bash	:
+pane	petitbus	2	:compass && tmux help	0	:-	2	:/var/www/html/mylittlebus/library/sass/breakpoints	1	bash	:
+window	0	1	1	:*	c83e,170x47,0,0,1
+window	1	1	1	:*	c83f,170x47,0,0,2
+window	petitbus	1	1	:*	6bd9,170x47,0,0{85x47,0,0,3,84x47,86,0,4}
+window	petitbus	2	0	:-	6be2,170x47,0,0{85x47,0,0,5,84x47,86,0,6}
+state	petitbus	petitbus

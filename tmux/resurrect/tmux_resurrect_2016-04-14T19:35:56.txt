@@ -1,0 +1,20 @@
+pane	0	1	:bash	1	:*	1	:/home/pierre	1	bash	:
+pane	4	1	:bash	1	:*	1	:/home/pierre	1	bash	:
+pane	perso	1	:bash	1	:*	1	:/media/pierre/Vidéos	0	bash	:
+pane	perso	1	:bash	1	:*	2	:/home/pierre/Downloads	1	bash	:
+pane	petitbus-app	1	:bash	1	:*	1	:/var/www/html/mylittlebus/library/js	0	bash	:
+pane	petitbus-app	1	:bash	1	:*	2	:/var/www/html/mylittlebus	1	bash	:
+pane	petitbus-app	2	:bash	0	: 	1	:/var/www/html/mylittlebus/library	1	bash	:
+pane	petitbus-app	2	:bash	0	: 	2	:/var/www/html/mylittlebus/library/sass/breakpoints	0	bash	:
+pane	petitbus-app	3	:bash	0	:-	1	:/var/www/html/mylittlebus/library/templates	0	bash	:
+pane	petitbus-app	3	:bash	0	:-	2	:/var/www/html/mylittlebus/library/js	1	bash	:
+pane	petitbus-services	1	:bash	1	:*	1	:/var/www/html/landing-page/services	1	bash	:
+pane	petitbus-services	1	:bash	1	:*	2	:/home/pierre	0	bash	:
+window	0	1	1	:*	c83e,170x47,0,0,1
+window	4	1	1	:*	6451,170x47,0,0,12
+window	perso	1	1	:*	8007,170x47,0,0[170x23,0,0,2,170x23,0,24,3]
+window	petitbus-app	1	1	:*	ebdd,170x47,0,0{85x47,0,0,4,84x47,86,0,5}
+window	petitbus-app	2	0	: 	ba86,170x47,0,0{80x47,0,0,6,89x47,81,0,7}
+window	petitbus-app	3	0	:-	ebef,170x47,0,0{85x47,0,0,8,84x47,86,0,9}
+window	petitbus-services	1	1	:*	246e,170x47,0,0{85x47,0,0,10,84x47,86,0,11}
+state	perso	petitbus-app

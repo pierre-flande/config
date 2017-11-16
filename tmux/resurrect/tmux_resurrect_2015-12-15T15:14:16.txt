@@ -1,0 +1,9 @@
+pane	1	1	:bash	1	:!*	1	:/home/pierre/.tmux/plugins/tpm	1	bash	:
+pane	petitbus	1	:git && greps	1	:*	1	:/var/www/html/mylittlebus	0	ruby1.9.1	:/usr/bin/ruby1.9.1 /usr/local/bin/compass watch library/
+pane	petitbus	1	:git && greps	1	:*	2	:/var/www/html/mylittlebus/library/js/libs	1	bash	:
+pane	petitbus	2	:compass && tmux help	0	:-	1	:/var/www/html/mylittlebus	0	bash	:
+pane	petitbus	2	:compass && tmux help	0	:-	2	:/var/www/html/mylittlebus/library/css/libs	1	bash	:
+window	1	1	1	:!*	c842,170x47,0,0,5
+window	petitbus	1	1	:*	6bd0,170x47,0,0{85x47,0,0,1,84x47,86,0,2}
+window	petitbus	2	0	:-	ebdc,170x47,0,0{85x47,0,0,4,84x47,86,0,3}
+state	petitbus	petitbus
